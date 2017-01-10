@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 500px;
+}
+
+div {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+footer {
+    margin: 20px;
+    padding: 10px;
+}
+
+.main {
+    background-color: #bbb;
+}
+
+.links {
+    background-color: #bbb;
+}
+
+.footer {
+    background-color: #bbb;
+}
