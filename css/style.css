@@ -9,30 +9,62 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    width: 500px;
+    height: 2000px;
+    background-image: url('../pages/ww1tank.jpg');
 }
 
-div {
-    margin: 20px;
+.fbc-display {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.round-fbc {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #2222aa;
+}
+
+.margin-center {
+    margin: 0 auto 0 auto;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+.padding {
     padding: 10px;
-    border: 2px solid black;
 }
 
-footer {
-    margin: 20px;
-    padding: 10px;
+.padding-more {
+    padding: 20px;
 }
 
-.main {
-    background-color: #bbb;
+.color-1 {
+    background-color: salmon;
 }
 
-.links {
-    background-color: #bbb;
+.color-2 {
+    background-color: teal;
 }
 
-.footer {
-    background-color: #bbb;
+.color-3 {
+    background-color: lightgray;
+}
+
+.border {
+    border-radius: 7px;
+}
+
+.right-padding {
+    padding-right: 30px;
+}
+
+.abandoned {
+    text-decoration: line-through;
 }
