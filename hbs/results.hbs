@@ -1,0 +1,16 @@
+<table>
+  <tbody>
+    <th>player</th>
+    <th>board</th>
+    <th>score</th>
+    <th>country</th>
+    {{#each test}}
+    <tr>
+      <td>{{{this.name}}}</td>
+      <td>{{{this.round1Board}}}</td>
+      <td>{{{this.round1Score}}}</td>
+      <td>{{{this.round1Country}}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
