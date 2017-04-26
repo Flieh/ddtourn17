@@ -1,37 +1,45 @@
 <html>
 
 <head>
-    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>!!!!!</title>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Tournament Top Board</title>
 </head>
 
 <body>
-    <div class="border padding round-fbc color-2 margin-center">
+  <div class="border padding round-fbc color-2 margin-center">
 
-        <header class="border margin-center color-3 padding margin-bottom ">
-            <h1>Droidippy Tournament 2017</h1>
-        </header>
+    <header class="border margin-center color-3 padding margin-bottom ">
+      <h1>Droidippy Tournament 2017</h1>
+    </header>
 
-        <nav class="border color-3 margin-center margin-bottom padding-more">
-            <h2>Menu</h2>
+    <nav class="border color-3 margin-center margin-bottom padding-more">
+      <h2>Menu</h2>
 
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/tournament-rules.html">Tournament Rules</a></li>
-                <li><a href="../pages/standings.html">Standings</a></li>
-                <li><a href="../pages/round-one.html">Round One</a></li>
-                <li><a href="../pages/round-two.html">Round Two</a></li>
-                <li><a href="../pages/round-three.html">Round Three</a></li>
-                <li><a href="../pages/round-four.html">Round Four</a></li>
-                <li><a href="../pages/round-five.html">Round Five</a></li>
-                <li><a href="../pages/top-board.html">Top Board</a></li>
-            </ul>
-        </nav>
-        <main class="border margin-center color-3 padding margin-bottom ">
-            <h3 class="placeholder">Data missing, check back later</h3>
-        </main>
-    </div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/tournament-rules.html">Tournament Rules</a></li>
+        <li><a href="../pages/standings.html">Standings</a></li>
+        <li><a href="../pages/round-one.html">Round One</a></li>
+        <li><a href="../pages/round-two.html">Round Two</a></li>
+        <li><a href="../pages/round-three.html">Round Three</a></li>
+        <li><a href="../pages/round-four.html">Round Four</a></li>
+        <li><a href="../pages/round-five.html">Round Five</a></li>
+        <li><a href="../pages/top-board.html">Top Board</a></li>
+      </ul>
+    </nav>
+
+    <main class="border margin-center color-3 padding margin-bottom ">
+      <h2 class="round-header">Top Board</h2>
+      <div id="display"></div>
+
+    </main>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/lodash/4.17.2/lodash.min.js"></script>
+  <script type="text/javascript" src="../js/top-board.js"></script>
 </body>
 
 </html>
